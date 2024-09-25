@@ -1,16 +1,111 @@
 /* # RESET */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* # UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+
+/* HEADER */
+.clearfix{
+  display: flex;
   
-  /* # UTILS */
+}
+.header {
+  height: 80px;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+.container-logo {
+  display: inline-block;
+}
+
+header .header-sx {
   
-  .container {
-    margin: 0 auto;
-    padding: 0 10px;
-    width: 1000px;
-    max-width: 100%;
-  }
+  width: 50%;
+ display: flex ;
+ align-items: center;
+}
+
+.header-sx > img {
+  padding: 25px 15px;
+  line-height: 80px;
+  vertical-align: middle;
+  max-width: 100%;
+  margin: -6px 19px;
+}
+.header-sx > ul {
+  display: inline-block;
+   margin 0 50px;
+  line-height: 77px;
+  vertical-align: middle;
+  height: 77px;
+}
+.header-sx  li { 
+  display: inline-block;
+  margin: 0px 16px;
+
+}
+
+/* header destro */
+
+header .header-dx {
+  width: 50%;
+  float: left;
+text-align: right;}
+    
+ header .header-dx  ul{
+  display: inline-block;
+  
+  line-height: 77px;
+ 
+ 
+}
+  
+
+
+
+
+
+.header-dx  li { 
+  display: inline-block;
+  margin: 0px 16px;
+  
+
+}
+
+
+.btn-none .accedi{
+  margin-left: 15px;
+  
+
+
+}
+
+.btn-none .inizia{
+  margin: 0px 10px;
+
+
+}
+
+
