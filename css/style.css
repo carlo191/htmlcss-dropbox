@@ -10,6 +10,10 @@ a {
   text-decoration: none;
   color: black;
 }
+body{
+  font-family: 'Open Sans', serif;
+}
+
 
 /* # UTILS */
 
@@ -102,10 +106,42 @@ text-align: right;}
 
 }
 
-.btn-none .inizia{
+.btn-blu .inizia{
   margin: 0px 10px;
 
 
 }
 
+
+/* HERO */
+
+.HERO{
+  min-height: 100px;
+  background-color: aqua;
+}
+
+.description-title{
+  margin-left: 138px;
+  width: 25%;
+  font-size: 1.2rem;
+}
+
+ h1{
+  text-align: center;
+  font-size: 7rem;
+}
+
+.HERO > .btn-blu{
+  margin-left: 138px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.annulla{
+  margin-left: 138px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
 
