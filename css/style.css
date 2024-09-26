@@ -90,6 +90,13 @@ section {
   width: 60px;
   border-color: currentColor;
 }
+.btn-blu-hero{
+  background-color: blue;
+  color: white;
+  height: 30px;
+  width: 60px;
+  border-color: currentColor;
+}
 
 /* BUISNESS PLAN */
 
