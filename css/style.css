@@ -77,6 +77,25 @@ section {
 #hero {
   background-color: hsl(207.06deg 51.52% 80.59%);
 }
+
+#hero h1 {
+  font-size: 4rem;
+}
+#hero p {
+  font-size: 1.1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#hero .btn-blu- {
+  margin-bottom: 10px;
+  background-color: blue;
+  color: white;
+  padding: 12px 12px;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  border-style: none;
+}
 #hero .container {
   position: relative;
   top: 50px;
@@ -97,22 +116,30 @@ section {
   width: 60px;
   border-color: currentColor;
 }
-.btn-blu-hero {
-  background-color: blue;
-  color: white;
-  height: 30px;
-  width: 60px;
-  border-color: currentColor;
+
+#fa-solid-fa-arrow-down {
+  margin-top: 23px;
+  padding-bottom: 21px;
+  font-size: 3rem;
+}
+.annulla {
+  padding-bottom: 24px;
 }
 
 /* BUISNESS PLAN */
+.buisness-cards {
+  display: flex;
+  gap: 2px;
+}
+#team {
+  border: 1px solid black;
+}
 
 #buisness-plan {
   padding-top: 100px;
 }
 
-#buisness-plan,
-.plan-type {
+#buisness-plan .plan-type {
   display: flex;
 }
 #buisness-plan .buisness-cards {
@@ -144,6 +171,21 @@ section {
 
 #solutions > .container > * {
   flex-grow: 1;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 10px 300px;
+}
+
+#solutions h2 {
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 2rem;
 }
 
 /* BRANDS */
