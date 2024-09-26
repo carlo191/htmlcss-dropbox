@@ -71,6 +71,9 @@ section {
 }
 
 /* HERO */
+.hero-content {
+  display: flex;
+}
 #hero {
   background-color: hsl(207.06deg 51.52% 80.59%);
 }
