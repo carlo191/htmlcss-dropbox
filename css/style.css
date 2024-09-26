@@ -84,13 +84,14 @@ section {
   display: flex;
 }
 
-.btn-blu {    background-color: blue;
+.btn-blu {
+  background-color: blue;
   color: white;
   height: 30px;
   width: 60px;
   border-color: currentColor;
 }
-.btn-blu-hero{
+.btn-blu-hero {
   background-color: blue;
   color: white;
   height: 30px;
@@ -144,7 +145,7 @@ section {
   display: flex;
 }
 
-#brands .row > col-1 {
+#brands .row > .brand-col {
   display: flex;
 }
 #brands .brand-square {
