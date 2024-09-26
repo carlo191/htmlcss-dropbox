@@ -67,6 +67,7 @@ section {
 
 .header-item li {
   display: inline-block;
+  padding: 0 15px;
 }
 
 /* HERO */
@@ -74,9 +75,20 @@ section {
   position: relative;
   top: 50px;
 }
+.logo-dropbox {
+  padding-top: 10px;
+  padding-right: 39px;
+}
 
 #hero-content {
   display: flex;
+}
+
+.btn-blu {    background-color: blue;
+  color: white;
+  height: 30px;
+  width: 60px;
+  border-color: currentColor;
 }
 
 /* BUISNESS PLAN */
